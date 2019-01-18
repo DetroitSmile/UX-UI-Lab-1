@@ -1,0 +1,94 @@
+html {
+    background-color: skyblue;  
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+img {
+    height: 110px;
+    width: 110px;
+    margin-left: 38%;
+}
+
+p {
+    display: none;
+}
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    margin: -10px;
+    color: #69696a;
+    border-bottom: darkred dashed 2px;
+    padding-top: 10px;
+    
+}
+
+div {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 3%;
+    color: purple;
+    border-bottom: darkred dashed 2px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: darkred;
+
+}
+
+.middle {
+    margin-top: 7%;
+}
+
+@media only screen and (min-width: 480px) {
+html {
+   background-color: skyblue;  
+   font-family:'Open Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    margin-left: 16px;
+    margin-top: 16px;
+    font-size: 30px;
+    border-bottom: none;
+}
+
+.top_nav {
+    justify-content: space-between;
+    flex-direction: row;
+    float: right;
+    padding-right: 30px;
+    padding-top: none;
+    border-bottom: none;
+}
+
+p {
+    display: flex;
+    width: 60%;
+    border-bottom: purple solid 2px;
+    padding-bottom: 10px;
+}
+
+img {
+    margin-left: 0;
+    height: 175px;
+    width: 175px;
+}
+
+div {
+    justify-content: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+}
